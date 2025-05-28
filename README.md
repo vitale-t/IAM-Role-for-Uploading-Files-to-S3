@@ -49,7 +49,7 @@ Crear el archivo `s3-write-policy.json` con el siguiente contenido:
       "Action": [
         "s3:PutObject"
       ],
-      "Resource": "arn:aws:s3:::mi-bucket-desafio-123/*"
+      "Resource": "arn:aws:s3:::desafio-03/*"
     }
   ]
 }
@@ -155,5 +155,5 @@ echo "Hola desde el rol!" > archivo.txt
 Subir el archivo:
 
 ```bash
-aws s3 cp archivo.txt s3://mi-bucket-desafio-123/ --profile assumed-role
+aws s3 cp archivo.txt s3://desafio-03/ --profile assumed-role
 ```
