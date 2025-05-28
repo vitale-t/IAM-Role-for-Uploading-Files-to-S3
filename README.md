@@ -16,7 +16,7 @@ Permitir que un usuario IAM llamado `s3-support` pueda asumir un rol desde la l�
 El nombre del bucket debe ser único a nivel global.
 
 ```bash
-aws s3api create-bucket --desafio-033 --region us-east-1
+aws s3api create-bucket --bucket desafio-03 --region us-east-1
 ```
 
 Reemplazar `desafio-03` por un nombre único si da error.
