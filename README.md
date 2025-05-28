@@ -8,11 +8,6 @@ Permitir que un usuario IAM llamado `s3-support` pueda asumir un rol desde la l√
 
 - Tener instalada y configurada la AWS CLI.
 - Tener acceso a una cuenta de AWS con permisos de administrador.
-- Conocer tu AWS Account ID (lo pod√©s obtener desde la consola de AWS o ejecutando el siguiente comando):
-
-```bash
-aws sts get-caller-identity
-```
 
 ## Pasos
 
